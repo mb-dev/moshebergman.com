@@ -1,0 +1,18 @@
+{
+  "author": "Moshe Bergman",
+  "name": "moshebergman.com",
+  "description": "Scripts that tie the 3 servers together",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mb-dev/moshebergman.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mb-dev/moshebergman.com"
+  },
+  "dependencies": {
+    "express": "3.4.7"
+  },
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2"
+  }
+}
