@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Moshe Bergman - About Me</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <style>
+      body {
+        background-color: rgba(0,0,0, 0.9);
+        color: white;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+      }
+      section {
+        margin-top: 100px;
+      }
+      section h1 {
+        font-family: 'Raleway', 'sans-serif';
+      }
+      section h3 {
+        font-weight: 100;
+        margin-top: 10px;
+      }
+      section p {
+        margin-top: 20px;
+      }
+      hr {
+        -moz-border-bottom-colors: none;
+        -moz-border-image: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        border-color: #7FA423 -moz-use-text-color #7FA423;
+        border-style: solid none;
+        border-width: 1px 0;
+        margin: 18px 0;
+        border: 1px solid #000;
+      }
+      .avatar {      
+        background-color: #F5F5F5;      
+        border-radius: 50% 50% 50% 50%;
+      }  
+      .facebook {
+        color: #3b5998;
+      }
+      .twitter {
+        color: #9AE4E8;
+      }
+      .linkedin {
+        color: #007bb6;
+      }
+      .google-plus {
+        color: #dd4b39;
+      }
+      .quora {
+        color: #a82400;
+      }
+      .github {
+        color: #f3f3f3;
+      }
+      .github2 {
+        color: black;
+      }
+      .stack-exchange {
+        color: black;
+      }
+      .row2 {
+        margin-top: 30px;
+      }
+      @media (min-width: 970px) {
+        .social-media {
+          padding-left: 142px;
+        }
+      }
+      @media (max-width: 970px) {
+        .social-media {
+          text-align: center;
+        }
+      }
+      .social-media a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .tooltip.top {
+        margin-top: -20px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <img src="https://avatars2.githubusercontent.com/u/807807?s=460" class="avatar" width="120" />
+            <h1>Moshe Bergman</h1>
+            <h3>Crafting Customer Satisfaction using Software Development.</h3>
+          </div>
+        </div>
+        <hr color="#7FA423"/>
+        <div class="row row2">
+          <p class="text-muted col-md-3 visible-md visible-lg">
+            Code: Ruby On Rails, NodeJS, Scala<br/>
+            Deployment: Chef, Ansible<br/>
+            Front-end: AngularJS, Backbone<br/>
+            Databases: MySQL, MongoDB<br/>
+          </p>
+          <p class="col-xs-12 col-md-9 social-media">
+            <a href="http://www.linkedin.com/in/moshebergman/" target="_blank"
+               data-toggle="tooltip" data-placement="top" title="LinkedIn">
+              <span class="fa-stack fa-lg fa-2x">
+                <i class="fa fa-circle fa-stack-2x linkedin"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="https://twitter.com/MosheBergman" target="_blank"
+               data-toggle="tooltip" data-placement="top" title="Twitter">
+              <span class="fa-stack fa-lg fa-2x">
+                <i class="fa fa-circle fa-stack-2x twitter"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="https://github.com/mb-dev" target="_blank"
+               data-toggle="tooltip" data-placement="top" title="Github">
+              <span class="fa-stack fa-lg fa-2x">
+                <i class="fa fa-circle fa-stack-2x github"></i>
+                <i class="fa fa-github fa-stack-1x github2"></i>
+              </span>
+            </a>
+            <a href="http://stackoverflow.com/users/173059/mbdev" target="_blank" 
+               data-toggle="tooltip" data-placement="top" title="Stack Exchange">
+              <span class="fa-stack fa-lg fa-2x">
+                <i class="fa fa-circle fa-stack-2x stack-exchange"></i>
+                <i class="fa fa-stack-exchange fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://www.facebook.com/moshebe" target="_blank"
+               data-toggle="tooltip" data-placement="top" title="Facebook">
+              <span class="fa-stack fa-lg fa-2x">
+                <i class="fa fa-circle fa-stack-2x facebook"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+
+
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('[data-toggle=tooltip]').tooltip();  
+      });
+    </script>
+  </body>
+</html>
